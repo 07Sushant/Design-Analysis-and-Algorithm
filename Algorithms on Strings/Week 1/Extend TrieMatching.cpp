@@ -1,162 +1,139 @@
-#include <iostream>
-#include <vector>
-#include <string>
-#include <array>
+#include <algorithm>
 #include <cassert>
+#include <cstdio>
+#include <iostream>
+#include <string>
+#include <vector>
 
 using namespace std;
 
-class Node
-{
-public:
-    static const int Letters = 4;
-    static const int NA = -1;
-    array<int, Letters> next;
-    bool patternEnd;
+int const Letters =    4;
+int const NA      =   -1;
 
-    Node()
-    {
-        fill(next.begin(), next.end(), NA);
-        patternEnd = false;
-    }
+struct Node
+{
+	int next [Letters];
+	bool patternEnd;
+
+	Node ()
+	{
+		fill (next, next + Letters, NA);
+		patternEnd = false;
+	}
 };
 
-class Trie
+int letterToIndex (char letter)
 {
-private:
-    Node root;
-    int maxLength;
-
-public:
-    Trie()
-    {
-        maxLength = 0;
-    }
-
-    void insert(const string &pattern)
-    {
-        Node *currentNode = &root;
-        for (char currentSymbol : pattern)
-        {
-            int index = letterToIndex(currentSymbol);
-
-            if (currentNode->next[index] == Node::NA)
-            {
-                currentNode->next[index] = root.next.size();
-                currentNode->next.fill(Node::NA);
-            }
-
-            currentNode = getNextNode(currentNode->next[index]);
-        }
-
-        currentNode->patternEnd = true;
-        if (pattern.length() > maxLength)
-        {
-            maxLength = pattern.length();
-        }
-    }
-
-    bool search(const string &text)
-    {
-        Node *currentNode = &root;
-        for (char currentSymbol : text)
-        {
-            int index = letterToIndex(currentSymbol);
-            if (currentNode->next[index] != Node::NA)
-            {
-                currentNode = getNextNode(currentNode->next[index]);
-            }
-            else
-            {
-                return false;
-            }
-        }
-        return true;
-    }
-
-    int getMaxLength()
-    {
-        return maxLength;
-    }
-
-private:
-    int letterToIndex(char letter)
-    {
-        switch (letter)
-        {
-        case 'A':
-            return 0;
-        case 'C':
-            return 1;
-        case 'G':
-            return 2;
-        case 'T':
-            return 3;
-        default:
-            assert(false);
-            return Node::NA;
-        }
-    }
-
-    Node *getNextNode(int index)
-    {
-        if (index >= root.next.size())
-        {
-            return new Node();
-        }
-        else
-        {
-            return &root;
-        }
-    }
-};
-
-vector<int> solve(const string &text, int n, const vector<string> &patterns)
-{
-    vector<int> result;
-    Trie trie;
-    for (const string &pattern : patterns)
-    {
-        trie.insert(pattern);
-    }
-
-    for (int i = 0; i <= text.length() - trie.getMaxLength(); i++)
-    {
-        if (trie.search(text.substr(i)))
-        {
-            result.push_back(i);
-        }
-    }
-
-    return result;
+	switch (letter)
+	{
+		case 'A': return 0; break;
+		case 'C': return 1; break;
+		case 'G': return 2; break;
+		case 'T': return 3; break;
+		default: assert (false); return -1;
+	}
 }
 
-int main()
+void build_trie (const vector <string>& patterns, vector<Node> &t)
+{	
+	for (int i = 0; i < patterns.size(); i++)
+	{
+		int x = 0;
+		for (int j = 0; j < patterns[i].size(); j++)
+		{
+			int index = letterToIndex(patterns[i][j]);
+			if (x >= t.size())
+			{
+				t.resize(x + 1);
+			}
+			if (t[x].next[index] != -1)
+			{
+				x = t[x].next[index];
+			}
+			else
+			{
+				t[x].next[index] = t.size();
+				x = t[x].next[index];
+				t.resize(x + 1);
+			}
+		}
+		t[x].patternEnd = true;
+	}
+
+}
+
+vector <int> solve (const string& text, int n, const vector <string>& patterns)
 {
-    string text;
-    cin >> text;
-    int n;
-    cin >> n;
-    vector<string> patterns(n);
-    for (int i = 0; i < n; i++)
-    {
-        cin >> patterns[i];
-    }
+	vector <int> result;
 
-    vector<int> ans = solve(text, n, patterns);
+	// write your code here
+	vector<Node> t;
+	build_trie(patterns, t);
 
-    for (int j = 0; j < ans.size(); j++)
-    {
-        cout << ans[j];
-        if (j + 1 < ans.size())
-        {
-            cout << " ";
-        }
-        else
-        {
-            cout << endl;
-        }
-    }
+	for (int i = 0; i < text.size(); i++)
+	{
+		int index = letterToIndex(text[i]);
+		int x = 0;
+		if (t[x].next[index] != -1)
+		{
+			bool found = true;
+			for (int j = i; !t[x].patternEnd ; j++)
+			{
+				if (j >= text.size())
+				{
+					found = false;
+					break;
+				}
+				index = letterToIndex(text[j]);
+				if (t[x].next[index] != -1)
+				{
+					x = t[x].next[index];
+				}
+				else
+				{
+					found = false;
+					break;
+				}
+			}
+			if (found)
+			{
+				result.push_back(i);
+			}
+		}
+	}
 
-    return 0;
+	return result;
+}
+
+int main (void)
+{
+	string t;
+	cin >> t;
+
+	int n;
+	cin >> n;
+
+	vector <string> patterns (n);
+	for (int i = 0; i < n; i++)
+	{
+		cin >> patterns[i];
+	}
+
+	vector <int> ans;
+	ans = solve (t, n, patterns);
+
+	for (int i = 0; i < (int) ans.size (); i++)
+	{
+		cout << ans[i];
+		if (i + 1 < (int) ans.size ())
+		{
+			cout << " ";
+		}
+		else
+		{
+			cout << endl;
+		}
+	}
+
+	return 0;
 }
