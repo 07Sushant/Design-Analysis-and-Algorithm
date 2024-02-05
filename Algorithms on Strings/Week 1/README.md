@@ -22,7 +22,6 @@ Explore the creation and applications of suffix trees.
 
 Find the shortest non-shared substring between two strings.
 
-
 ## MCQ Images
 
 ![MCQ 1](img/Tries%20And%20Suffix%20trees%20week%201%20Q1.png)
