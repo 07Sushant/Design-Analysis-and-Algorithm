@@ -1,4 +1,4 @@
-# Week 2 Assignment
+# Week 1 Assignment
 ## MCQ Images
 
 ![MCQ 1](img/Tries%20And%20Suffix%20trees%20week%201%20Q1.png)
