@@ -1,27 +1,4 @@
-# Algorithmic Problems
-
-## Week 1 Assignment
-
-### Construct a Trie from a Collection of Patterns
-
-Implement a function to construct a Trie data structure from a collection of patterns.
-
-### Implement TrieMatching
-
-Implement a function to perform pattern matching using the Trie data structure.
-
-### Extend TrieMatching
-
-Extend the Trie matching algorithm to return the starting indices of the matched patterns in the text.
-
-### Suffix Tree
-
-Explore the creation and applications of suffix trees.
-
-### Shortest Non-Shared Substring
-
-Find the shortest non-shared substring between two strings.
-
+# Week 2 Assignment
 ## MCQ Images
 
 ![MCQ 1](img/Tries%20And%20Suffix%20trees%20week%201%20Q1.png)
