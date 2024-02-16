@@ -2,7 +2,7 @@
 
 University of California San Diego All Assignments
 
-## <div align="center">YouTube</div>
+# <div align="center">YouTube</div>
 ###### <div align="center">Click on the image</div>
 
 [![YouTube Channel](/img/07Susahnt.gif)](https://www.youtube.com/07Sushant.)
