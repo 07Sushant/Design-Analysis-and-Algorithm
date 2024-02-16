@@ -1,5 +1,5 @@
-# <div align="center">Algorithms-on-Strings</div>
-### <div align="center">University of California San Diego All Assignments
+# <div align="center">Dynamic Programming, Greedy Algorithms</div>
+### <div align="center">University of Colorado BoulderAll Assignments
 </div>
 
 ## <div align="center">YouTube</div>
