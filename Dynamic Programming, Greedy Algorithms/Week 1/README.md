@@ -2,15 +2,14 @@
 
 University of California San Diego All Assignments
 
-## <p style="text-align: center; font-size: 24px;">YouTube</p>
+## <div style="text-align: center; font-size: 24px;">YouTube</div>
 
-<p style="text-align: center; font-size: 12px;">Click on the image</p>
-
+<div style="text-align: center; font-size: 12px;">Click on the image</div>
 
 [![YouTube Channel](/img/07Susahnt.gif)](https://www.youtube.com/07Sushant.)
 
+Check out our YouTube channel for video content related to our programming assessments!
 
-Check out YouTube channel for video content related to our programming assessments!
 
 
 
