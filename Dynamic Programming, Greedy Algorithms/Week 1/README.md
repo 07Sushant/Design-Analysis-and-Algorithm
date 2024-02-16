@@ -4,8 +4,8 @@ University of California San Diego All Assignments
 
 ## YouTube
 
-[![YouTube Channel](youtube_button_image.jpg)](https://www.youtube.com/07Sushant.)
-
+[![YouTube Channel](/img/07Susahnt.gif)](https://www.youtube.com/07Sushant.)
+## Click on image
 Check out our YouTube channel for video content related to our programming assessments!
 
 ## [Week 1](/Dynamic%20Programming,%20Greedy%20Algorithms/Week%201/Week%201/Week%201.md)
