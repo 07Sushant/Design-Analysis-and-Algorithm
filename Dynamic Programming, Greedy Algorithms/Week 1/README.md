@@ -6,6 +6,7 @@ University of California San Diego All Assignments
 
 [![YouTube Channel](/img/07Susahnt.gif)](https://www.youtube.com/07Sushant.)
 <br>
+<br>
 Check out our YouTube channel for video content related to our programming assessments!
 
 
