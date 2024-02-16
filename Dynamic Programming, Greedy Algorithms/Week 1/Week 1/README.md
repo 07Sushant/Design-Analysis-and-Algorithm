@@ -1,9 +1,9 @@
+# <div align="center">Programming Assignment: Problem Set 1</div>
+
+</div>
 
 
-
-
-
-## Problem 1: Max Subarray Problem
+# Problem 1: Max Subarray Problem
 
 Recall the max subarray problem presented in class. We used divide and conquer method to derive a $\Theta(n \log(n))$ worst case time algorithm to solve it.
 
@@ -61,8 +61,9 @@ print('All tests passed (10 points!)')
 
     All tests passed (10 points!)
 
+# Problem 2:
 
-## Problem 2
+
 
 We studied polynomial multiplication using FFT in class. Recall the algorithm given two polynomials $a(x) = a_0 + a_1 x + \cdots + a_{n-1} x^{n-1} $ and $b(x) = b_0 + b_1 x + \cdots + b_{m-1} x^{m-1}$.
 
@@ -223,7 +224,7 @@ print('All tests passed (10 points!)')
     All tests passed (10 points!)
 
 
-## Problem 3 
+# Problem 3 
 
 We are given three subsets of numbers $A, B, C\subseteq \{ 0, \ldots, n\}$. Design an algorithm that runs in worst case time  $\Theta(n \log(n))$ that checks if there exists numbers 
 $n_1, n_2$ in $A,B$, respectively and number $n_3$ in $C$ such that
@@ -329,7 +330,7 @@ print('All Tests Passed (15 points)!')
     All Tests Passed (15 points)!
 
 
-## Problem 4
+# Problem 4
 
 We have given a file called `natural_gas_futures_weekly_all.csv` which is weekly data for natural gas futures from 8/2000 to 5/2021.
 
