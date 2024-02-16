@@ -8,7 +8,7 @@
 [![YouTube Channel](/img/07Susahnt.gif)](https://www.youtube.com/07Sushant.)
 <br>
 <br>
-Check out our YouTube channel for video content related to our programming assessments!
+Check out YouTube channel for video content related to our programming assessments!
 
 
 <br>
