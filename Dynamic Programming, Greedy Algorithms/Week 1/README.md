@@ -4,7 +4,7 @@ University of California San Diego All Assignments
 
 ## <div style="text-align: center; font-size: 24px;">YouTube</div>
 
-<div style="text-align: center; font-size: 12px;">Click on the image</div>
+<!-- <div style="text-align: center; font-size: 12px;">Click on the image</div> -->
 
 [![YouTube Channel](/img/07Susahnt.gif)](https://www.youtube.com/07Sushant.)
 
