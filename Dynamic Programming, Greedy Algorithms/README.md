@@ -13,22 +13,22 @@ Check out YouTube channel for video content related to our programming assessmen
 
 <br>
 
-## [Week 1](/Dynamic%20Programming,%20Greedy%20Algorithms/Week%201/Week%201/)
+## [Week 1](/Dynamic%20Programming,%20Greedy%20Algorithms/Week%201/)
 
 ### Programming Assessment
-- [Link to Week 1 Programming Assessment](/Dynamic%20Programming,%20Greedy%20Algorithms/Week%201/Week%201/README.md)
+- [Link to Week 1 Programming Assessment](/Dynamic%20Programming,%20Greedy%20Algorithms/Week%201/README.md)
 
-## [Week 2](/Dynamic%20Programming,%20Greedy%20Algorithms/Week%201/Week%202/)
-
-### Programming Assessment
-- [Link to Week 2 Programming Assessment](/Dynamic%20Programming,%20Greedy%20Algorithms/Week%201/Week%202/README.md)
-
-## [Week 3](/Dynamic%20Programming,%20Greedy%20Algorithms/Week%201/Week%203/)
+## [Week 2](/Dynamic%20Programming,%20Greedy%20Algorithms/Week%202/)
 
 ### Programming Assessment
-- [Link to Week 3 Programming Assessment](/Dynamic%20Programming,%20Greedy%20Algorithms/Week%201/Week%203/README.md)
+- [Link to Week 2 Programming Assessment](/Dynamic%20Programming,%20Greedy%20Algorithms/Week%202/README.md)
 
-## [Week 4](/Dynamic%20Programming,%20Greedy%20Algorithms/Week%201/Week%204/)
+## [Week 3](/Dynamic%20Programming,%20Greedy%20Algorithms/Week%203/)
 
 ### Programming Assessment
-- [Link to Week 4 Programming Assessment](/Dynamic%20Programming,%20Greedy%20Algorithms/Week%201/Week%204/README.md)
+- [Link to Week 3 Programming Assessment](/Dynamic%20Programming,%20Greedy%20Algorithms/Week%203/README.md)
+
+## [Week 4](/Dynamic%20Programming,%20Greedy%20Algorithms/Week%204/)
+
+### Programming Assessment
+- [Link to Week 4 Programming Assessment](/Dynamic%20Programming,%20Greedy%20Algorithms/Week%204/README.md)
