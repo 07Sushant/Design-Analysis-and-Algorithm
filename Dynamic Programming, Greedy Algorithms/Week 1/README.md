@@ -3,7 +3,7 @@
 University of California San Diego All Assignments
 
 ## <p style="text-align: center; font-size: 24px;">YouTube</p>
-<p style="text-align: center; font-size: 12.5px;">Click on the image</p>
+<p style="text-align: center; font-size: 12px;">Click on the image</p>
 
 
 [![YouTube Channel](/img/07Susahnt.gif)](https://www.youtube.com/07Sushant.)
@@ -13,22 +13,22 @@ Check out YouTube channel for video content related to our programming assessmen
 
 
 
-## [Week 1](/Dynamic%20Programming,%20Greedy%20Algorithms/Week%201/Week%201/Week%201.md)
+## [Week 1](/Dynamic%20Programming,%20Greedy%20Algorithms/Week%201/Week%201/)
 
 ### Programming Assessment
-- [Link to Week 1 Programming Assessment](Week%201/)
+- [Link to Week 1 Programming Assessment](/Dynamic%20Programming,%20Greedy%20Algorithms/Week%201/Week%201/README.md)
 
 ## [Week 2](/Dynamic%20Programming,%20Greedy%20Algorithms/Week%201/Week%202/)
 
 ### Programming Assessment
-- [Link to Week 2 Programming Assessment](Week%202/)
+- [Link to Week 2 Programming Assessment](/Dynamic%20Programming,%20Greedy%20Algorithms/Week%201/Week%202/README.md)
 
-## [Week 3](Week%203/)
-
-### Programming Assessment
-- [Link to Week 3 Programming Assessment](Week%203/)
-
-## [Week 4](Week%204/)
+## [Week 3](/Dynamic%20Programming,%20Greedy%20Algorithms/Week%201/Week%203/)
 
 ### Programming Assessment
-- [Link to Week 4 Programming Assessment](Week%204/)
+- [Link to Week 3 Programming Assessment](/Dynamic%20Programming,%20Greedy%20Algorithms/Week%201/Week%203/README.md)
+
+## [Week 4](/Dynamic%20Programming,%20Greedy%20Algorithms/Week%201/Week%204/)
+
+### Programming Assessment
+- [Link to Week 4 Programming Assessment](/Dynamic%20Programming,%20Greedy%20Algorithms/Week%201/Week%204/README.md)
