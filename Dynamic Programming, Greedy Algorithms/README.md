@@ -5,7 +5,7 @@
 ## <div align="center">YouTube</div>
 ###### <div align="center">Click on the image</div>
 
-[![YouTube Channel](/img/07Susahnt.gif)](https://www.youtube.com/07Sushant.)
+[![YouTube Channel](/img/07Susahnt.gif)](https://www.youtube.com/@07Sushant.)
 <br>
 <br>
 Check out YouTube channel for video content related to our programming assessments!
