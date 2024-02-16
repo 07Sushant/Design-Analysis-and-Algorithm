@@ -3,6 +3,7 @@
 University of California San Diego All Assignments
 
 ## <p style="text-align: center; font-size: 24px;">YouTube</p>
+
 <p style="text-align: center; font-size: 12px;">Click on the image</p>
 
 
