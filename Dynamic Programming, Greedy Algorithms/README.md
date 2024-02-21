@@ -9,7 +9,8 @@
 <br>
 <br>
 Check out YouTube channel for video content related to our programming assessments!
-[![Visitors](https://img.shields.io/endpoint?url=https://api.visitorbadge.io/api/VisitorHit?user=07Sushant&repo=Design-Analysis-and-Algorithm&countColor=%237B1E7A)](https://github.com/07Sushant/Design-Analysis-and-Algorithm)
+<br>
+[![Visitors](https://visitor-badge.glitch.me/badge?page_id=your_username.your_repo_name)](https://github.com/your_username/your_repo_name)
 
 
 
