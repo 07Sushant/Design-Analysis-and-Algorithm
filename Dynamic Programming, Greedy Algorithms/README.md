@@ -10,7 +10,7 @@
 <br>
 Check out YouTube channel for video content related to our programming assessments!
 <br>
-[![Visitors](https://visitor-badge.glitch.me/badge?page_id=07Sushant.Dynamic-Programming-Greedy-Algorithms)](https://github.com/07Sushant/Dynamic-Programming-Greedy-Algorithms)
+[![Visitors](https://visitor-badge.glitch.me/badge?page_id=07Sushant.Design-Analysis-and-Algorithm)](https://github.com/07Sushant/Design-Analysis-and-Algorithm)
 
 
 
