@@ -10,8 +10,8 @@
 <br>
 Check out YouTube channel for video content related to our programming assessments!
 <br>
-![](https://komarev.com/ghpvc/?username=07Sushant&color=ff0000&label=Welcome,+Please+Come+In+Visitor) ![](https://hit.yhype.me/github/profile?user_id=43730425)<br>
-
+![](https://komarev.com/ghpvc/?username=07Sushant&color=ff0000&label=Design-Analysis-and-Algorithm)
+<br>
 
 
 
