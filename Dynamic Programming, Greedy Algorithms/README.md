@@ -10,7 +10,7 @@
 <br>
 Check out YouTube channel for video content related to our programming assessments!
 <br>
-[![Visitors](https://visitor-badge.glitch.me/badge?page_id=07Sushant.Design-Analysis-and-Algorithm)](https://github.com/07Sushant/Design-Analysis-and-Algorithm)
+![](https://komarev.com/ghpvc/?username=07Sushant&color=ff0000&label=Welcome,+Please+Come+In+Visitor) ![](https://hit.yhype.me/github/profile?user_id=43730425)<br>
 
 
 
