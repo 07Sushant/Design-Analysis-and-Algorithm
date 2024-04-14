@@ -1,7 +1,7 @@
 # Linear Programming And Approximation
 
 ### For this course MCQ you can check her repo.
-### As i didn't get time to cover MCQ this time
+### As I didn't get time to cover MCQ this time
 
 
 
