@@ -1,6 +1,6 @@
 # Linear Programming And Approximation
 
-### For this course MCQ you can check her repo.
+### For this course MCQ you can check her repo (Bhanupriya-art).
 ### As I didn't get time to cover MCQ this time
 
 
